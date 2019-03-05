@@ -25,3 +25,9 @@ KkthnxUIConfig["deDE"] = {
 	},
 }
 ```
+
+Now you will need to fork this and make your changes.
+https://guides.github.com/activities/forking/
+
+Once finshed you can make a PR(Pull Request with your changes.)
+https://yangsu.github.io/pull-request-tutorial/
