@@ -11,7 +11,10 @@ L["Install"] = {
 
 Another example I will show is how we shall process the group names! We are now in the config folder KkthnxUI_Config/Locales now. These are at the start of the files. They look like this
 Here we see **KkthnxUIConfig["deDE"]**, now we do not touch this as this just tells us what lanmage we are in currently and what lanage to output to the game based on the client.
-Next we see **["GroupNames"] = {** nor do we touch this either. Same thing as above we want to hit the text of the right after = sign. **STOP!** If you see text like this **BINDING_HEADER_ACTIONBAR** that is in all caps with **_s** this is a string from blizzard that is being handled by blizzard. We can leave this alone.
+
+Next we see **["GroupNames"] = {** nor do we touch this either. Same thing as above we want to hit the text of the right after = sign.
+**STOP!**
+If you see text like this **BINDING_HEADER_ACTIONBAR** that is in all caps with **_s** this is a string from blizzard that is being handled by blizzard. We can leave this alone.
 ```
 KkthnxUIConfig["deDE"] = {
 	-- Menu Groups Display Names
